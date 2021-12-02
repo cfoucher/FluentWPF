@@ -60,13 +60,13 @@ namespace SourceChord.FluentWPF.Utility
 
             if (style == AccentFlagsType.Window)
             {
-                accent.AccentFlags = 2;
+                //accent.AccentFlags = 2;
             }
             else
             {
                 accent.AccentFlags = 0x20 | 0x40 | 0x80 | 0x100;
             }
-            
+
             //accent.GradientColor = 0x99FFFFFF;  // 60%の透明度が基本
             accent.GradientColor = 0x00FFFFFF;  // Tint Colorはここでは設定せず、Bindingで外部から変えられるようにXAML側のレイヤーとして定義
 

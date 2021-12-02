@@ -25,6 +25,11 @@ namespace FluentWPFSample
             InitializeComponent();
         }
 
+        private void OpenWin11AcrylicWindow(object sender, RoutedEventArgs e)
+        {
+            var win = new Views.Win11AcrylicWindow();
+            win.ShowDialog();
+        }
         private void OpenAcrylicWindow(object sender, RoutedEventArgs e)
         {
             var win = new Views.AcrylicWindow();
